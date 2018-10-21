@@ -6,7 +6,7 @@ public class Main {
         SoloGameRunner gameRunner = new SoloGameRunner();
 
         gameRunner.setAgent(JVPlayer.class);
-        gameRunner.setTestCase("test19.json");
+        gameRunner.setTestCase("test11.json");
 
         gameRunner.start(9999);
     }
