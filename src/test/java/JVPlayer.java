@@ -2,6 +2,8 @@ import java.util.*;
 import java.io.*;
 import java.math.*;
 
+enum DIR {U,D,L,R};
+
 /**
  * Auto-generated code below aims at helping you parse
  * the standard input according to the problem statement.
@@ -25,4 +27,14 @@ class Player {
 
         System.out.println("0 0 U 1 1 R 2 2 D 3 3 L");
     }
+}
+
+class Individual{
+	
+}
+
+class Gene{
+	public int x;
+	public int y;
+	public 
 }
